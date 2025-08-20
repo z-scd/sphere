@@ -499,6 +499,10 @@
 @layer components;
 
 @layer utilities {
+  .static {
+    position: static;
+  }
+
   .row-start-2 {
     grid-row-start: 2;
   }
@@ -523,12 +527,20 @@
     height: calc(var(--spacing) * 10);
   }
 
+  .h-screen {
+    height: 100vh;
+  }
+
   .min-h-screen {
     min-height: 100vh;
   }
 
   .w-full {
     width: 100%;
+  }
+
+  .w-screen {
+    width: 100vw;
   }
 
   .list-inside {
