@@ -2,5 +2,5 @@
   "version": 3,
   "sources": [],
   "sections": [
-    {"offset": {"line": 12, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/sagar/OneDrive/Desktop/ai-powered-job-prep/src/app/page.tsx"],"sourcesContent":["import { SignIn, UserButton } from \"@clerk/nextjs\";\nimport React from \"react\";\n\nexport default function HomePage() {\n  return (\n    <div>\n      <SignIn />\n      <UserButton />\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;AAAA;;;AAGe,SAAS;IACtB,qBACE,8OAAC;;0BACC,8OAAC,gMAAM;;;;;0BACP,8OAAC,oMAAU;;;;;;;;;;;AAGjB","debugId":null}}]
+    {"offset": {"line": 12, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/sagar/OneDrive/Desktop/ai-powered-job-prep/src/app/page.tsx"],"sourcesContent":["import { SignIn, SignInButton, UserButton } from \"@clerk/nextjs\";\nimport React from \"react\";\n\nexport default function HomePage() {\n  return (\n    <div>\n      <SignInButton />\n      <UserButton />\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;AAAA;;;AAGe,SAAS;IACtB,qBACE,8OAAC;;0BACC,8OAAC,sMAAY;;;;;0BACb,8OAAC,oMAAU;;;;;;;;;;;AAGjB","debugId":null}}]
 }

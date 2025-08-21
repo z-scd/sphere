@@ -1,10 +1,10 @@
-import { SignIn, UserButton } from "@clerk/nextjs";
+import { SignIn, SignInButton, UserButton } from "@clerk/nextjs";
 import React from "react";
 
 export default function HomePage() {
   return (
     <div>
-      <SignIn />
+      <SignInButton />
       <UserButton />
     </div>
   );
