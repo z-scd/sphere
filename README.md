@@ -1,4 +1,4 @@
-# Sarathi
+# Sphere
 
 An AI-powered teaching and learning companion designed for job and academic preparation, with specialized support for Bangladesh's National Curriculum and Textbook Board (NCTB) materials.
 
