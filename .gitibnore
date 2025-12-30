@@ -1,5 +1,0 @@
-.env
-.gitignore
-documents/books/
-documents/faiss_index/
-db

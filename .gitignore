@@ -1,3 +1,6 @@
-node_modules
-
 .env
+backend/app/daata/documents/books/CLASS_9_10
+backend/app/daata/documents/faiss_index/CLASS_9_10
+backend/app/db
+.next
+
